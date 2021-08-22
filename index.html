@@ -15,40 +15,64 @@
 
     <title>Coursera cs3 week3 solution(HTML, CSS, and Javascript for Web Developers)</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <span class="header">Our Menu</span>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  		<a class="navbar-brand" href="#"><span class="brand-name">FooD LLC.</span></a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation">
+    		    <span class="navbar-toggler-icon"></span>
+  		</button>
+
+  		<div class="collapse navbar-collapse" id="navcontent">
+    		    <ul class="navbar-nav mr-auto">
+      			<li class="nav-item">
+        		    <a class="nav-link" href="#chicken">Chicken</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#beef">Beef</a>
+      			</li>
+			<li class="nav-item">
+        			<a class="nav-link" href="#sushi">Sushi</a>
+      			</li>
+    		     </ul>
+  		</div>
+	    </nav>
         </header>
-        <article class="art">
-            <section class="colbox col-lg-4 col-md-6 col-sm-12">
-                <section class="sub_sec" id="sub1">Chicken</section>
+        <article class="art container">
+            <section class="colbox col-lg-4 col-md-6 col-sm-12" id="chicken">
+                <section class="sub_sec chicken">Chicken</section>
+		<img src="img/chicken.jpg" alt="PicTuRe oF ChiCkEn" class="imp-responsive sec-img chicken">
                 <span class="quotes">&quot;I  haven't checked, but I highly suspect that chickens evolved from an egg-laying ancestor, which would mean that there were, in fact, eggs before there were chickens. Genius.&quot;</span>
                 <br>
                 <span class="author">-&nbsp;Ta-Nehisi&nbsp;Coates.</span>
             </section>
     
-            <section class="colbox col-lg-4 col-md-6 col-sm-12">
-                <section class="sub_sec" id="sub2">Beef</section>
+            <section class="colbox col-lg-4 col-md-6 col-sm-12" id="beef">
+                <section class="sub_sec beef">Beef</section>
+		<img src="img/ox03.jpg" alt="PicTuRe oF oX" class="imp-responsive sec-img beef">
                 <span class="quotes">&quot;After you have witnessed the reality, you can no longer look at a piece of steak, and simply think &quot;yum&quot;.&quot;</span>
                 <br>
                 <span class="author">―&nbsp;Mango&nbsp;Wodzak,&nbsp;Destination&nbsp;Eden</span>
             </section>
     
-            <section class="colbox col-lg-4 col-md-6 col-sm-12" id="colbox3">
-                <section class="sub_sec" id="sub3">Sushi</section>
+            <section class="colbox col-lg-4 col-md-12 col-sm-12" id="sushi">
+                <section class="sub_sec sushi sushi-tit">Sushi</section>
+		<img src="img/sushi03.jpg" alt="PicTuRe oF SuShI" class="imp-responsive sec-img sushi" id="sushi-img">
                 <span class="quotes">&quot;You can't buy  Happiness, But you can buy sushi, Which is kinda the same thing.&quot;</span>
                 <br>
                 <span class="author">―&nbsp;Akashi&nbsp;Brickell&nbsp;Restaurant</span>
             </section>
         </article>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
