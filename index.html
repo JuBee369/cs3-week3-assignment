@@ -24,10 +24,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
     </head>
     <body>
+	
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-light bg-light visible-xs">
   		<a class="navbar-brand" href="#"><span class="brand-name">FooD LLC.</span></a>
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation">
+  		<button class="navbar-toggler d-none d-sm-block d-md-none" type="button" data-toggle="collapse" data-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation">
     		    <span class="navbar-toggler-icon"></span>
   		</button>
 
@@ -47,8 +48,9 @@
 	    </nav>
         </header>
         <article class="art container">
+	    <h2 class="text-center"> Our Menu</h2>
             <section class="colbox col-lg-4 col-md-6 col-sm-12" id="chicken">
-                <section class="sub_sec chicken">Chicken</section>
+                <section class="sub_sec chicken chicken-tit">Chicken</section>
 		<img src="img/chicken.jpg" alt="PicTuRe oF ChiCkEn" class="imp-responsive sec-img chicken">
                 <span class="quotes">&quot;I  haven't checked, but I highly suspect that chickens evolved from an egg-laying ancestor, which would mean that there were, in fact, eggs before there were chickens. Genius.&quot;</span>
                 <br>
