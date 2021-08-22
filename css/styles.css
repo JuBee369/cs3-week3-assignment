@@ -9,12 +9,25 @@ body{
 }
 
 header{
-    font-family:  'Times New Roman', Times, serif;
+    font-family:  'Abril Fatface', cursive;
     font-size: 3em;
     text-align: center;
     background-color: beige;
 }
+.brand-name{
+    font-size: 2em;
+    padding-left: 78px;
+}
 
+.nav-link{
+    font-size:.5em;
+}
+.container{
+    padding-left:0;
+    padding-right:0;
+    margin-left:0;
+    margin-right:0;
+}
 .art{
     box-sizing: border-box;
     margin: auto;
@@ -26,7 +39,7 @@ header{
     box-sizing: border-box;
     float:left;
     border: 1px solid black;
-    height: 300px;
+    height: 560px;
     background-color: dimgrey;
     position: relative;
     padding: 92px 10px 10px 10px;
@@ -38,7 +51,7 @@ header{
     top: 0px;
     right: 0px;
     display: block;
-    width: 54%;
+    width: 70%;
     text-align: center;
     font-family: WindSong,monospace, fantasy;
     font-size: 3em;
@@ -47,17 +60,29 @@ header{
     border-radius: 8px;
 }
 
-#sub1{
+.chicken{
     background-color: tomato;
 }
 
-#sub2{
+.beef{
     background-color: red;
     color: white;
 }
 
-#sub3{
+.sushi{
     background-color: orange;
+}
+
+.sec-img{
+    height: 250px;
+    width: 95%;
+    border: 2px solid #3F0C1F;
+    padding: 0;
+    margin: 2.5%;
+}
+
+.sec-img:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 .quotes{
@@ -74,6 +99,10 @@ header{
 }
 
 @media screen and (min-width: 992px){
+    .navbar-nav{
+    	position: absolute;
+    	right: 24px;
+    }
     /*Bootstrap column dividing style for given assignment*/
     .col-lg-4 { 
         width: 32%; 
@@ -85,14 +114,20 @@ header{
     .col-md-6 {
         width: 48.5%;
     }
-
     .colbox{
-        height: 259px;
+        height: 550px;
     }
-
-    #colbox3{
-        width: 98%;
+    .col-md-12 {
+        width: 99%;
     }
+    .sushi-tit{
+	width: 45%;
+    }
+    #sushi-img{
+	margin: 2.5% 21.5% 2.5%;
+	width: 58%;
+    }
+    
 }
 
 @media screen and (max-width:767px){
@@ -102,6 +137,16 @@ header{
     }
 
     .colbox{
-        height: 220px;
+        height: 550px;
     }
+
+    .sub_sec{
+	width: 53%;
+    }
+
+    .sec-img{
+	margin: 2.5% 9.8% 2.5%;
+	width: 80%;
+    }
+    
 }
