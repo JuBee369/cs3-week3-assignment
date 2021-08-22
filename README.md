@@ -6,7 +6,7 @@
     </head>
     <body>        
         <h1>cs3-week3-assignment</h1>
-        <strong>Hosted Link:</strong><a href="https://jubee369.github.io/cs3-week3-assignment/index.html" target="_blank" style="font-size: 2em;, font-weight: 800;,font-family: 'Abril Fatface',serif;">Food LLC.</a>
+        <strong>Hosted Link:</strong><a href="https://jubee369.github.io/cs3-week3-assignment/index.html" target="_blank" style="font-size: 2em;, font-weight: 800;,font-family: 'Abril Fatface',serif;">Food LLC.</a><br><br><br><br>
         Coursera course: [HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
 
 Woo-hoo! MORE CODING!!! Exciting! :-)
